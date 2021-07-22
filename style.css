@@ -13,7 +13,7 @@ body
 	border-radius: 15px;
 }
 
-#player1 , #player2
+#player1_name , #player2_name
 {
 	display: inline-block;
 	margin-left: 20px;

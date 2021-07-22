@@ -48,22 +48,22 @@ function check() {
         //Question code
         if (question_turn =="player1") {
             question_turn = "player2";
-            document.getElementById("player_question").innerHTML = "Question Turn: " + player2_name;
+            document.getElementById("player_question").innerHTML = "Question Turn: " + player2;
 
         } 
         else {
             question_turn = "player1";
-            document.getElementById("player_question").innerHTML = "Question Turn: " + player1_name;
+            document.getElementById("player_question").innerHTML = "Question Turn: " + player1;
         }
 
         //Answer code
-    if (answer_Turn == "player1") {
-        answer_Turn = "player2";
-        document.getElementById("player_answer").innerHTML = "Answer Turn: " + player2_name;
+    if (answer_turn == "player1") {
+        answer_turn = "player2";
+        document.getElementById("player_answer").innerHTML = "Answer Turn: " + player2;
     }
     else {
-        answer_Turn = "player1";
-        document.getElementById("player_answer").innerHTML = "Answer Turn: " + player1_name;
+        answer_turn = "player1";
+        document.getElementById("player_answer").innerHTML = "Answer Turn: " + player1;
     }
 
     document.getElementById("output").innerHTML = "";
